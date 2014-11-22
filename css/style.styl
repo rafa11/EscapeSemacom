@@ -3,6 +3,147 @@ gris_oscuro = #444
 gris_claro= #E8E8E8
 naranja	=#DD4F24
 gris_texto=#7A7A7A
+negro=#000
+
 
 * { margin: 0; padding: 0; outline: 0; }
 
+article
+	.CuadroTexto
+		position: relative; 
+		margin: 0 auto; 
+		top: 0px; 
+		left: 0px; 
+		width: 1300px; 
+		height: 500px;
+		overflow: hidden;
+		.CuadroImagen
+			cursor: move; 
+			position: absolute; 
+			left: 0px; 
+			top: 0px; 
+			width: 1300px; 
+			height: 500px; 
+			overflow: hidden;
+			
+			.Titulo
+				position: absolute; 
+				width: 480px; 
+				height: 120px; 
+				top: 30px; 
+				left: 30px; 
+				padding: 5px; 
+				text-align: left; 
+				line-height: 60px; 
+				text-transform: uppercase; 
+				font-size: 50px;
+				color: #FFFFFF;
+				
+			.SubTitulo
+				position: absolute; 
+				width: 480px; 
+				height: 120px; 
+				top: 300px; 
+				left: 30px; 
+				padding: 5px;
+			    text-align: left; 
+			    line-height: 36px; 
+			    font-size: 30px;
+			    color: #FFFFFF;
+	.servicios
+		
+		color gris_texto
+		padding .5em 
+		position relative
+		margin 0 auto
+		overflow hidden // para que se reajuste 
+#Des
+	background white 
+	border-radius 0.5em 0.5em 0.5em 0.5em
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	color gris_texto
+	display block
+	padding 0 0 50px 0
+	margin-bottom 1em	
+	width 15%
+	height 200px
+	
+	figure
+		img
+			width 100px
+			
+			
+header
+	background white
+	overflow hidden 
+	padding 0.5em
+	position relative
+		
+	.logo
+		float left //Logo a la izquierda
+		width 110px // espacio 
+		img
+			border-radius 50%
+			width 100px
+	.titular
+		color naranja
+		font-size 50px
+		font-weight bold
+		margin 20px 0 10px 110px
+		
+	.sociales
+		display block
+		position absolute
+		right 10px
+		top 10px
+
+footer
+	background gris_oscuro
+	text-align center
+	
+	.datos
+		text-align center
+		color naranja
+		.empresa
+			font-size 25px
+	.derechos
+		color naranja
+		font-style italic
+			
+
+
+
+
+nav
+	background gris_oscuro
+	position relative
+
+.menu
+	line-height 40px
+	margin 0
+	overflow-x auto
+	text-align left
+	white-space nowrap
+		
+	ul
+		margin 0
+		
+		
+		li
+			display inline-block
+			
+			a
+				color white
+				display block
+				font-size 18px
+				font-weight bold
+				padding 25px
+				text-decoration none
+			&:hover
+				background naranja
+					
+
+	.activo
+		background naranja
+		color white			
+		
